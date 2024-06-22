@@ -2,16 +2,45 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+```bash
+# Resend API KEY from your Resend API Account
+Replace RESEND_API_KEY from .env
+```
+```bash
+#if you verify your domain at Resend API (if not , let it the same)
+Replace FROM_EMAIL from .env
+```
+```bash
+Note: if you you don't have verify at Resend API , the send to mail address must be the same as your Resend API Account's email . (if not same , will not work)
+run the development server:
+```
+
+
+ 
+
 
 ```bash
-npm run dev
+(for running nextjs)
+
+npm run dev 
 # or
 yarn dev
 # or
 pnpm dev
 # or
 bun dev
+```
+
+```bash
+(for view email templates)
+
+npm run email 
+# or
+yarn email
+# or
+pnpm email
+# or
+bun email
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
