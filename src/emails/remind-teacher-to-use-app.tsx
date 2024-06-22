@@ -1,3 +1,4 @@
+/* eslint-disable */
 import {Body, Container, Head, Html, Preview, Section, Text} from "@react-email/components";
 import * as React from "react";
 import {styles, container, text} from "../styles";
